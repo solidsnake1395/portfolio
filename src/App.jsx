@@ -176,7 +176,13 @@ function App() {
 
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <div className="w-80 h-80 bg-black/70 border border-green-500 rounded-2xl mx-auto mb-8 shadow-lg"></div>
+              <div className="w-80 h-80 bg-black/70 border border-green-500 rounded-2xl mx-auto mb-8 shadow-lg flex items-center justify-center overflow-hidden">
+                <img 
+                  src="https://i.imgur.com/XbnfspS.png" 
+                  alt="Aitor Profile" 
+                  className="w-full h-full object-cover rounded-2xl"
+                />
+              </div>
             </div>
 
             <div className="space-y-6 font-mono text-green-200">

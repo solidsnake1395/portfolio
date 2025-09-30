@@ -1,6 +1,12 @@
 import React, { useState, useEffect } from "react";
 import useTypewriter from "./hooks/useTypewriter";
-import { FaGithub, FaTwitter, FaLinkedin, FaInstagram, FaEnvelope } from "react-icons/fa";
+import {
+  FaGithub,
+  FaTwitter,
+  FaLinkedin,
+  FaInstagram,
+  FaEnvelope,
+} from "react-icons/fa";
 import "./App.css";
 
 function App() {
@@ -27,7 +33,7 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-4">
             <div className="flex-shrink-0">
-              <h1 className="text-2xl font-bold text-green-400">Aitor Dev</h1>
+              <h1 className="text-2xl font-bold text-green-400 font-press-start">Aitor Dev</h1>
             </div>
 
             <div className="hidden md:block">
@@ -129,7 +135,7 @@ function App() {
       >
         <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
           <div className="animate-fade-in-up">
-            <h1 className="text-5xl md:text-7xl font-bold text-green-400 mb-6">
+            <h1 className="text-5xl md:text-7xl font-bold text-green-400 mb-6 font-bitcount-light">
               <span>{typedText}</span>
               <span className="inline-block w-2 bg-green-300 ml-1 align-bottom animate-blink">
                 &nbsp;
@@ -164,7 +170,7 @@ function App() {
       <section id="about" className="py-20">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-green-400 mb-4">Sobre Mí</h2>
+            <h2 className="text-3xl font-bold text-green-400 mb-4 font-press-start">Sobre Mí</h2>
             <div className="w-24 h-1 bg-green-500 mx-auto"></div>
           </div>
 
@@ -191,12 +197,12 @@ function App() {
 
               <div className="grid grid-cols-2 gap-6 mt-8">
                 <div className="text-center p-4 bg-black/70 border border-green-500 rounded-lg">
-                  <h4 className="text-3xl font-bold text-green-500">50+</h4>
-                  <p>Proyectos Completados</p>
+                  <h4 className="text-2xl font-bold text-green-500 font-press-start">50+</h4>
+                  <p className="font-bitcount">Proyectos Completados</p>
                 </div>
                 <div className="text-center p-4 bg-black/70 border border-green-500 rounded-lg">
-                  <h4 className="text-3xl font-bold text-green-500">5+</h4>
-                  <p>Años de Experiencia</p>
+                  <h4 className="text-2xl font-bold text-green-500 font-press-start">5+</h4>
+                  <p className="font-bitcount">Años de Experiencia</p>
                 </div>
               </div>
             </div>
@@ -208,8 +214,8 @@ function App() {
       <section id="skills" className="py-20">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-green-400 mb-4">
-              Tecnologías & Herramientas
+            <h2 className="text-3xl font-bold text-green-400 mb-4 font-press-start">
+              Tech Stack
             </h2>
             <div className="w-24 h-1 bg-green-500 mx-auto"></div>
           </div>
@@ -239,8 +245,8 @@ function App() {
       <section id="projects" className="py-20">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-green-400 mb-4">
-              Proyectos Destacados
+            <h2 className="text-3xl font-bold text-green-400 mb-4 font-press-start">
+              Projects
             </h2>
             <div className="w-24 h-1 bg-green-500 mx-auto"></div>
           </div>
@@ -286,8 +292,8 @@ function App() {
         className="py-20 bg-gradient-to-br from-black via-slate-900 to-green-900 text-center"
       >
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-4xl font-bold text-green-400 mb-4">
-            ¿Listo para tu próximo proyecto?
+          <h2 className="text-3xl font-bold text-green-400 mb-4 font-press-start">
+            Contact Me
           </h2>
           <div className="w-24 h-1 bg-green-500 mx-auto mb-8"></div>
           <p className="text-green-200 mb-12 max-w-2xl mx-auto">

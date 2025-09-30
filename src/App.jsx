@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import useTypewriter from "./hooks/useTypewriter";
+import { FaGithub, FaTwitter, FaLinkedin, FaInstagram, FaEnvelope } from "react-icons/fa";
 import "./App.css";
 
 function App() {
@@ -297,23 +298,31 @@ function App() {
           <div className="flex flex-col sm:flex-row gap-6 justify-center mb-12">
             <a
               href="mailto:aitor@example.com"
-              className="bg-green-600 hover:bg-green-700 text-black px-8 py-4 rounded-lg font-semibold transition-colors shadow-lg"
+              className="bg-green-600 hover:bg-green-700 text-black px-8 py-4 rounded-lg font-semibold transition-colors shadow-lg flex items-center justify-center gap-2"
             >
-              📧 Enviar Email
+              <FaEnvelope size={20} /> Enviar Email
             </a>
             <a
               href="#"
-              className="border border-green-500 text-green-300 hover:bg-green-600 hover:text-black px-8 py-4 rounded-lg font-semibold transition-colors"
+              className="border border-green-500 text-green-300 hover:bg-green-600 hover:text-black px-8 py-4 rounded-lg font-semibold transition-colors flex items-center justify-center gap-2"
             >
-              💼 LinkedIn
+              <FaLinkedin size={20} /> LinkedIn
             </a>
           </div>
 
           <div className="flex justify-center space-x-8 text-green-200">
-            <a href="#">GitHub</a>
-            <a href="#">Twitter</a>
-            <a href="#">LinkedIn</a>
-            <a href="#">Instagram</a>
+            <a href="#" className="hover:text-green-500 transition-colors">
+              <FaGithub size={24} />
+            </a>
+            <a href="#" className="hover:text-green-500 transition-colors">
+              <FaTwitter size={24} />
+            </a>
+            <a href="#" className="hover:text-green-500 transition-colors">
+              <FaLinkedin size={24} />
+            </a>
+            <a href="#" className="hover:text-green-500 transition-colors">
+              <FaInstagram size={24} />
+            </a>
           </div>
         </div>
       </section>

@@ -34,20 +34,23 @@ export const projectsData = [
     title: "CardsNshots",
     description: "Un partygame de cartas multijugador en tiempo real desarrollado con Sinfony y frankenPHP.",
     demoUrl: "#",
-    githubUrl: "https://github.com/solidsnake1395/CardsNshots"
+    githubUrl: "https://github.com/solidsnake1395/CardsNshots",
+    imageUrl: "https://via.placeholder.com/300x200?text=CardsNshots"
   },
   {
     id: 2,
     title: "Gestor guardias instituto",
     description: "Uno de mis primeros proyectos, un gestor de guardias para profesores de instituto desarrollado con vue y un apirest con json server.",
     demoUrl: "https://gestionguardias.onrender.com/",
-    githubUrl: "https://github.com/solidsnake1395/AppGuardias"
+    githubUrl: "https://github.com/solidsnake1395/AppGuardias",
+    imageUrl: "https://i.imgur.com/xTcJTYk.png"
   },
   {
     id: 3,
     title: "Daily Movies",
     description: "Aplicación web en PHP que consume un API externa para mostrar información actualizada sobre la próxima película de Marvel.",
     demoUrl: "https://aitormovies.ct.ws/",
-    githubUrl: "https://github.com/solidsnake1395/minicursoPHP"
+    githubUrl: "https://github.com/solidsnake1395/minicursoPHP",
+    imageUrl: "https://i.imgur.com/yHC3Rar.png"
   }
 ];

@@ -4,7 +4,7 @@ import SectionTitle from "../ui/SectionTitle";
 
 const Contact = () => {
   const socialLinks = [
-    { icon: FaGithub, href: "#", label: "GitHub" },
+    { icon: FaGithub, href: "https://github.com/solidsnake1395", label: "GitHub" },
     { icon: FaTwitter, href: "#", label: "Twitter" },
     { icon: FaLinkedin, href: "#", label: "LinkedIn" },
     { icon: FaInstagram, href: "#", label: "Instagram" },

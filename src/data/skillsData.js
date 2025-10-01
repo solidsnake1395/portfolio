@@ -12,18 +12,19 @@ export const skillsData = {
     { name: "PHP", level: 4, icon: "SiPhp", color: "#4F5B93" },
     { name: "Java", level: 4, icon: "SiOpenjdk", color: "#007396" },
     { name: "MySQL", level: 4, icon: "SiMysql", color: "#FFFFFF" },
+    { name: "Spring Boot", level: 3, icon: "SiSpringboot", color: "#6DB33F" },
     { name: "Symfony", level: 3, icon: "SiSymfony", color: "#47A248" },
+    { name: "Node.js", level: 3, icon: "SiNodedotjs", color: "#339933" },
     { name: "PostgreSQL", level: 3, icon: "SiPostgresql", color: "#336791" },
-    { name: "Spring Boot", level: 4, icon: "SiSpringboot", color: "#6DB33F" },
-    { name: "Node.js", level: 5, icon: "SiNodedotjs", color: "#339933" },
   ],
   tools: [
+    { name: "VS Code", level: 5, icon: "BiLogoVisualStudio", color: "#007ACC" },
+    { name: "ChatGPT", level: 5, icon: "SiOpenai", color: "#8DD6F9" },
     { name: "Git", level: 4, icon: "SiGit", color: "#F05032" },
-    { name: "VS Code", level: 5, icon: "SiVscode", color: "#007ACC" },
+    { name: "Copilot", level: 4, icon: "SiGithubcopilot", color: "white" },
     { name: "PHPStorm", level: 3, icon: "SiPhpstorm", color: "violet" },
     { name: "Docker", level: 3, icon: "SiDocker", color: "#2496ED" },
-    { name: "Webpack", level: 3, icon: "SiWebpack", color: "#8DD6F9" },
-    { name: "DigitalOcean", level: 4, icon: "SiDigitalocean", color: "#0080FF" },
+    { name: "DigitalOcean", level: 3, icon: "SiDigitalocean", color: "#0080FF" },
   ]
 };
 
@@ -44,8 +45,8 @@ export const projectsData = [
   },
   {
     id: 3,
-    title: "AI Analytics Tool",
-    description: "Descripción del proyecto AI Analytics Tool en estilo terminal.",
+    title: "Marvel Movies",
+    description: "Aplicación web en PHP que consume un API externa para mostrar información actualizada sobre la próxima película de Marvel.",
     demoUrl: "#",
     githubUrl: "#"
   }

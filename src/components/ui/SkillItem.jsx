@@ -4,13 +4,17 @@ import {
   SiTailwindcss, SiNodedotjs, SiPython, SiExpress, SiMongodb, 
   SiPostgresql, SiGraphql, SiGit, SiDocker, SiFigma, SiWebpack, 
   SiOpenjdk, SiPhp, SiSymfony, SiMysql, SiSpringboot, SiDigitalocean, 
-  SiPhpstorm
+  SiPhpstorm,SiGithubcopilot,SiOpenai
 } from "react-icons/si";
 import { GiHighGrass } from "react-icons/gi";
+import { BiLogoVisualStudio } from "react-icons/bi";
 import SkillBar from "./SkillBar";
 
 const SkillItem = ({ skill }) => {
   const iconComponents = {
+    BiLogoVisualStudio,
+    SiOpenai,
+    SiGithubcopilot,
     SiBootstrap,
     SiReact,
     SiJavascript,

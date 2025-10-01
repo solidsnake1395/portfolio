@@ -45,9 +45,9 @@ export const projectsData = [
   },
   {
     id: 3,
-    title: "Marvel Movies",
+    title: "Daily Movies",
     description: "Aplicación web en PHP que consume un API externa para mostrar información actualizada sobre la próxima película de Marvel.",
-    demoUrl: "#",
+    demoUrl: "https://aitormovies.ct.ws/",
     githubUrl: "https://github.com/solidsnake1395/minicursoPHP"
   }
 ];

@@ -10,7 +10,7 @@ export const skillsData = {
   ],
   backend: [
     { name: "PHP", level: 4, icon: "SiPhp", color: "#4F5B93" },
-    { name: "Java", level: 4, icon: "SiOpenjdk", color: "#007396" },
+    { name: "Java", level: 4, icon: "FaJava", color: "#007396" },
     { name: "MySQL", level: 4, icon: "SiMysql", color: "#FFFFFF" },
     { name: "Spring Boot", level: 3, icon: "SiSpringboot", color: "#6DB33F" },
     { name: "Symfony", level: 3, icon: "SiSymfony", color: "#47A248" },
@@ -31,23 +31,23 @@ export const skillsData = {
 export const projectsData = [
   {
     id: 1,
-    title: "SaaS Dashboard",
-    description: "Descripción del proyecto SaaS Dashboard en estilo terminal.",
+    title: "CardsNshots",
+    description: "Un partygame de cartas multijugador en tiempo real desarrollado con Sinfony y frankenPHP.",
     demoUrl: "#",
-    githubUrl: "#"
+    githubUrl: "https://github.com/solidsnake1395/CardsNshots"
   },
   {
     id: 2,
-    title: "E-commerce Mobile",
-    description: "Descripción del proyecto E-commerce Mobile en estilo terminal.",
-    demoUrl: "#",
-    githubUrl: "#"
+    title: "Gestor guardias instituto",
+    description: "Uno de mis primeros proyectos, un gestor de guardias para profesores de instituto desarrollado con vue y un apirest con json server.",
+    demoUrl: "https://gestionguardias.onrender.com/",
+    githubUrl: "https://github.com/solidsnake1395/AppGuardias"
   },
   {
     id: 3,
     title: "Marvel Movies",
     description: "Aplicación web en PHP que consume un API externa para mostrar información actualizada sobre la próxima película de Marvel.",
     demoUrl: "#",
-    githubUrl: "#"
+    githubUrl: "https://github.com/solidsnake1395/minicursoPHP"
   }
 ];

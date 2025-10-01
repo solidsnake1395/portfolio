@@ -8,10 +8,12 @@ import {
 } from "react-icons/si";
 import { GiHighGrass } from "react-icons/gi";
 import { BiLogoVisualStudio } from "react-icons/bi";
+import { FaJava } from "react-icons/fa";
 import SkillBar from "./SkillBar";
 
 const SkillItem = ({ skill }) => {
   const iconComponents = {
+    FaJava,
     BiLogoVisualStudio,
     SiOpenai,
     SiGithubcopilot,

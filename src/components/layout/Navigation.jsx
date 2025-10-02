@@ -39,7 +39,7 @@ const Navigation = () => {
                 <a
                   key={item.href}
                   href={item.href}
-                  className="hover:text-green-500 transition-colors font-medium"
+                  className="hover:text-green-500 transition-colors font-medium font-bitcount"
                 >
                   {item.label}
                 </a>
@@ -72,7 +72,7 @@ const Navigation = () => {
               <a
                 key={item.href}
                 href={item.href}
-                className="block px-3 py-2 hover:text-green-500"
+                className="block px-3 py-2 hover:text-green-500 font-bitcount"
                 onClick={() => setIsMenuOpen(false)}
               >
                 {item.label}

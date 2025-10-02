@@ -27,13 +27,13 @@ const Hero = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a 
               href="#projects" 
-              className="bg-green-600 hover:bg-green-700 text-black px-8 py-4 rounded-lg font-semibold transition-colors shadow-lg"
+              className="flex items-center justify-center gap-2 px-8 py-4 bg-green-600/20 border border-green-500 text-green-300 rounded-lg hover:bg-green-600 hover:text-black font-semibold transition-all duration-300 font-bitcount shadow-lg hover:shadow-green-500/50"
             >
               Ver Mis Proyectos
             </a>
             <a 
               href="#contact" 
-              className="border border-green-600 text-green-300 hover:bg-green-600 hover:text-black px-8 py-4 rounded-lg font-semibold transition-colors"
+              className="flex items-center justify-center gap-2 px-8 py-4 bg-black/50 border border-green-500/50 text-green-200 rounded-lg hover:bg-green-500/20 hover:border-green-400 font-semibold transition-all duration-300 font-bitcount"
             >
               Contactar
             </a>

@@ -33,7 +33,7 @@ export const projectsData = [
     id: 1,
     title: "CardsNshots",
     description: "Party game de cartas multijugador en tiempo real, implementado con Mercure y desarrollado con Symfony y PostgreSQL.",
-    demoUrl: "#",
+    demoUrl: "Demo no disponible actualmente",
     githubUrl: "https://github.com/solidsnake1395/CardsNshots",
     imageUrl: "https://i.imgur.com/KAq17Ns.png"
   },

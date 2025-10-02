@@ -9,7 +9,7 @@ const About = () => {
 
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
-            <div className="w-65 h-80 bg-black/70 border border-green-500 rounded-2xl mx-auto mb-8 shadow-lg flex items-center justify-center overflow-hidden">
+            <div className="w-58 h-80 bg-black/70 border border-green-500 rounded-2xl mx-auto mb-8 shadow-lg flex items-center justify-center overflow-hidden">
               <img
                 src="https://i.imgur.com/liAQ8OW.png"
                 alt="Aitor Profile"

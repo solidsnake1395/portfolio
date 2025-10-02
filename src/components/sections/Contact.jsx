@@ -29,7 +29,7 @@ const Contact = () => {
             <FaEnvelope size={20} /> Enviar Email
           </a>
           <a 
-            href="public/AitorCV.pdf" 
+            href="/AitorCV.pdf" 
             download
             className="border border-green-500 text-green-300 hover:bg-green-600 hover:text-black px-8 py-4 rounded-lg font-semibold transition-colors flex items-center justify-center gap-2"
           >

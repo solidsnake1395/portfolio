@@ -32,15 +32,15 @@ export const projectsData = [
   {
     id: 1,
     title: "CardsNshots",
-    description: "Un partygame de cartas multijugador en tiempo real desarrollado con Sinfony y frankenPHP.",
+    description: "Party game de cartas multijugador en tiempo real, implementado con Mercure y desarrollado con Symfony y PostgreSQL.",
     demoUrl: "#",
     githubUrl: "https://github.com/solidsnake1395/CardsNshots",
-    imageUrl: "https://via.placeholder.com/300x200?text=CardsNshots"
+    imageUrl: "https://i.imgur.com/KAq17Ns.png"
   },
   {
     id: 2,
-    title: "Gestor guardias instituto",
-    description: "Uno de mis primeros proyectos, un gestor de guardias para profesores de instituto desarrollado con vue y un apirest con json server.",
+    title: "Gestor de Guardias",
+    description: "Aplicación web para la gestión de guardias en centros educativos, fácilmente adaptable a otros ámbitos. Desarrollada con Vue y una API REST basada en JSON Server.",
     demoUrl: "https://gestionguardias.onrender.com/",
     githubUrl: "https://github.com/solidsnake1395/AppGuardias",
     imageUrl: "https://i.imgur.com/xTcJTYk.png"
@@ -48,9 +48,10 @@ export const projectsData = [
   {
     id: 3,
     title: "Daily Movies",
-    description: "Aplicación web en PHP que consume un API externa para mostrar información actualizada sobre la próxima película de Marvel.",
+    description: "Aplicación web en PHP que consume la API de TMDb para mostrar estrenos diarios y generar recomendaciones de películas al azar.",
     demoUrl: "https://aitormovies.ct.ws/",
     githubUrl: "https://github.com/solidsnake1395/minicursoPHP",
     imageUrl: "https://i.imgur.com/yHC3Rar.png"
   }
+  
 ];

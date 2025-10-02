@@ -1,13 +1,11 @@
 import React from "react";
-import { FaGithub, FaTwitter, FaLinkedin, FaInstagram, FaEnvelope } from "react-icons/fa";
+import { FaGithub, FaTwitter, FaLinkedin, FaInstagram, FaEnvelope, FaFileDownload } from "react-icons/fa";
 import SectionTitle from "../ui/SectionTitle";
 
 const Contact = () => {
   const socialLinks = [
     { icon: FaGithub, href: "https://github.com/solidsnake1395", label: "GitHub" },
-    { icon: FaTwitter, href: "#", label: "Twitter" },
     { icon: FaLinkedin, href: "#", label: "LinkedIn" },
-    { icon: FaInstagram, href: "#", label: "Instagram" },
   ];
 
   return (
@@ -31,10 +29,11 @@ const Contact = () => {
             <FaEnvelope size={20} /> Enviar Email
           </a>
           <a 
-            href="#" 
+            href="/path/to/cv.pdf" 
+            download
             className="border border-green-500 text-green-300 hover:bg-green-600 hover:text-black px-8 py-4 rounded-lg font-semibold transition-colors flex items-center justify-center gap-2"
           >
-            <FaLinkedin size={20} /> LinkedIn
+            <FaFileDownload size={20} /> Descargar CV
           </a>
         </div>
 

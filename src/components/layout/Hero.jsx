@@ -18,10 +18,11 @@ const Hero = () => {
             </span>
           </h1>
           <h2 className="text-2xl md:text-3xl text-green-200 mb-8 font-light">
-            Desarrollador Full Stack & Arquitecto de Soluciones
+            Desarrollador Full Stack
           </h2>
           <p className="text-green-100 mb-12 max-w-2xl mx-auto">
-            Transformo ideas innovadoras en experiencias digitales excepcionales usando las últimas tecnologías web
+          Programar es dar vida a las ideas. <br/>
+          Disfruto combinando lógica, diseño y creatividad para crear proyectos que aporten valor real.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a 

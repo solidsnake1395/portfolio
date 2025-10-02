@@ -10,10 +10,10 @@ const About = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
             <div className="w-65 h-80 bg-black/70 border border-green-500 rounded-2xl mx-auto mb-8 shadow-lg flex items-center justify-center overflow-hidden">
-              <img 
-                src="https://i.imgur.com/liAQ8OW.png" 
-                alt="Aitor Profile" 
-                className="w-full h-full object-cover rounded-2xl" 
+              <img
+                src="https://i.imgur.com/liAQ8OW.png"
+                alt="Aitor Profile"
+                className="w-full h-full object-cover rounded-2xl"
               />
             </div>
           </div>
@@ -23,22 +23,28 @@ const About = () => {
               Desarrollador apasionado por la innovación
             </h3>
             <p className="leading-relaxed">
-              Con más de 5 años de experiencia en desarrollo web, me especializo en crear 
-              aplicaciones robustas y escalables. Mi pasión por la tecnología me impulsa a 
-              estar siempre al día con las últimas tendencias del desarrollo.
+              Con más de 3 años de formación y experiencia en desarrollo web, me
+              especializo en aportar soluciones útiles y escalables.
             </p>
             <p className="leading-relaxed">
-              He trabajado con startups y empresas consolidadas, ayudándolas a digitalizar 
-              sus procesos y crear productos que impactan positivamente en sus usuarios.
+              Mi pasión por la tecnología me impulsa a mantenerme al día con las
+              últimas tendencias, combinando el aprendizaje constante con la
+              aplicación práctica de mis conocimientos para crear soluciones
+              digitales efectivas.
             </p>
 
             <div className="grid grid-cols-2 gap-6 mt-8">
-              <div className="text-center p-4 bg-black/70 border border-green-500 rounded-lg">
-                <h4 className="text-2xl font-bold text-green-500 font-press-start">50+</h4>
-                <p className="font-bitcount">Proyectos Completados</p>
+              <div className="text-center p-4 bg-black/70 border border-green-500 rounded-lg flex flex-col justify-center items-center">
+                <h4 className="text-xl font-bold text-green-500 font-press-start">
+                  Graduado Superior
+                </h4>
+                <p className="font-bitcount">Desarrollo</p>
+                <p className="font-bitcount">Aplicaciones web</p>
               </div>
-              <div className="text-center p-4 bg-black/70 border border-green-500 rounded-lg">
-                <h4 className="text-2xl font-bold text-green-500 font-press-start">5+</h4>
+              <div className="text-center p-4 bg-black/70 border border-green-500 rounded-lg flex flex-col justify-center items-center">
+                <h4 className="text-2xl font-bold text-green-500 font-press-start">
+                  3+
+                </h4>
                 <p className="font-bitcount">Años de Experiencia</p>
               </div>
             </div>

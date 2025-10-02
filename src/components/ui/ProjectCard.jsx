@@ -7,7 +7,7 @@ const ProjectCard = ({ project }) => {
         <img 
           src={project.imageUrl} 
           alt={project.title} 
-          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+          className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-300"
         />
       </div>
       <div className="p-6">
